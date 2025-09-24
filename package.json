@@ -1,0 +1,57 @@
+{
+  "name": "config-validator",
+  "version": "1.0.0",
+  "description": "A simple config reader and validator",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf ./dist",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepublishOnly": "npm run clean && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "config",
+    "configuration",
+    "validator",
+    "validation",
+    "env",
+    "environment"
+  ],
+  "author": "ali [dot] molaei [at] proton [dot] me",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/molaeiali/config-validator"
+  },
+  "homepage": "https://github.com/molaeiali/config-validator",
+  "bugs": {
+    "url": "https://github.com/molaeiali/config-validator/issues"
+  },
+  "license": "ISC",
+  "packageManager": "pnpm@10.17.1",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/node": "^24.5.2",
+    "eslint": "^9.36.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.6.2",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.44.1"
+  }
+}
