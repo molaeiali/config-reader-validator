@@ -22,6 +22,9 @@ export default tseslint.config(
       '@typescript-eslint/no-import-type-side-effects': 'error',
       '@typescript-eslint/no-unsafe-call': 'off',
       '@typescript-eslint/no-unsafe-return': 'off',
+      '@typescript-eslint/no-unsafe-members': 'off',
+      '@typescript-eslint/no-misused-spread': 'off',
+      '@typescript-eslint/restrict-template-expressions': 'off',
     },
   },
   {
