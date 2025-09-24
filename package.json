@@ -1,5 +1,5 @@
 {
-  "name": "config-validator",
+  "name": "config-reader-validator",
   "version": "1.0.0",
   "description": "A simple config reader and validator",
   "type": "module",
@@ -25,11 +25,11 @@
   "author": "ali [dot] molaei [at] proton [dot] me",
   "repository": {
     "type": "git",
-    "url": "https://github.com/molaeiali/config-validator"
+    "url": "https://github.com/molaeiali/config-reader-validator"
   },
-  "homepage": "https://github.com/molaeiali/config-validator",
+  "homepage": "https://github.com/molaeiali/config-reader-validator",
   "bugs": {
-    "url": "https://github.com/molaeiali/config-validator/issues"
+    "url": "https://github.com/molaeiali/config-reader-validator/issues"
   },
   "license": "ISC",
   "packageManager": "pnpm@10.17.1",
