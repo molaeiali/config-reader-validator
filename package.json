@@ -1,6 +1,6 @@
 {
   "name": "config-reader-validator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple config reader and validator",
   "type": "module",
   "main": "./dist/index.js",
@@ -31,7 +31,7 @@
   "bugs": {
     "url": "https://github.com/molaeiali/config-reader-validator/issues"
   },
-  "license": "ISC",
+  "license": "MIT",
   "packageManager": "pnpm@10.17.1",
   "engines": {
     "node": ">=18"
