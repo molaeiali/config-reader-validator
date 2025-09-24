@@ -1,6 +1,6 @@
 # Config Reader Validator
 
-A library that uses [class-validator]() and [class-transformer] to validate your config class in a nest DTO style, it also reads environment for you.
+A library that uses [class-validator](https://www.npmjs.com/package/class-validator) and [class-transformer](https://www.npmjs.com/package/class-transformer) to validate your config class in a nest DTO style, it also reads environment for you.
 
 ## Installation
 
@@ -71,6 +71,6 @@ void main();
 - **configValidatorSetup**: accepts an optional `dotEnvConfig?: DotenvConfigOptions` which is the default `dotenv` configuration
 - **validateConfig**: receives an optional `validationOptions?: ValidationOptions` which is the default class-validator options
 
-## Todos:
+## Todos
 
-[ ] tests
+- [ ] tests
